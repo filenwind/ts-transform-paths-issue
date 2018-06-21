@@ -9,7 +9,7 @@
     "clean": "rimraf ./dist",
     "build": "npm-run-all clean tsc",
     "build:ttsc": "npm-run-all clean ttsc",
-    "start": "node ./dist"
+    "start": "node ./dist/lib"
   },
   "dependencies": {
     "@types/app-root-path": "^1.2.4",

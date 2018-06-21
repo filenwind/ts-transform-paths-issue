@@ -1,3 +1,3 @@
-const app = 'this is app';
+const app = 'is app';
 
 export default app;
