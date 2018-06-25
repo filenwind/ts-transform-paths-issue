@@ -1,5 +1,9 @@
 import { Data } from 'app/type';
 
+export interface someType {
+  someProperty: string;
+}
+
 type transform = (prefix: string) => Data;
 
 const factory = (prefix: string, transform: transform) => () => {

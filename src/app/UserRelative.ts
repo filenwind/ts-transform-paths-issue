@@ -1,7 +1,9 @@
 import factory from './factory';
+import { someType } from './factory';
 
 class User {
   public name = 'John';
+  public test?: someType;
   public double = (prefix: string) => {
     return {
       name: `${prefix} ${this.name.repeat(2)}`,
