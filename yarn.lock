@@ -6,17 +6,17 @@
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@types/app-root-path/-/app-root-path-1.2.4.tgz#a78b703282b32ac54de768f5512ecc3569919dc7"
 
-"@zerollup/ts-helpers@^1.4.3":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@zerollup/ts-helpers/-/ts-helpers-1.4.3.tgz#dc3d9cc1488b64d238ee678c408b07febe5aa191"
+"@zerollup/ts-helpers@^1.4.4":
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/@zerollup/ts-helpers/-/ts-helpers-1.4.4.tgz#2770098ea27b8e44297c7ea2c9949145fec5b172"
   dependencies:
-    resolve "^1.7.1"
+    resolve "^1.8.1"
 
-"@zerollup/ts-transform-paths@^1.4.3":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@zerollup/ts-transform-paths/-/ts-transform-paths-1.4.3.tgz#123e32f03091ac37c8eff2dfa48e6e2ba5dc2e49"
+"@zerollup/ts-transform-paths@^1.4.4":
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/@zerollup/ts-transform-paths/-/ts-transform-paths-1.4.4.tgz#7f8bc4cd59e9fc8a82ecf8617b291e279a99d00e"
   dependencies:
-    "@zerollup/ts-helpers" "^1.4.3"
+    "@zerollup/ts-helpers" "^1.4.4"
 
 ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   version "3.2.1"
@@ -369,7 +369,7 @@ read-pkg@^3.0.0:
     normalize-package-data "^2.3.2"
     path-type "^3.0.0"
 
-resolve@^1.7.1:
+resolve@^1.7.1, resolve@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.8.1.tgz#82f1ec19a423ac1fbd080b0bab06ba36e84a7a26"
   dependencies:
